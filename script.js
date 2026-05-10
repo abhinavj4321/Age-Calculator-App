@@ -35,5 +35,5 @@ function calculateAge(){
         monthDifference+=12;
         ageDifference--;
     }
-    document.getElementById('result').innerHTML=`Your are <span> ${ageDifference} </span> years, <span> ${monthDifference} </span> and <span> ${dayDifference} </span> days old.`
+    document.getElementById('result').innerHTML=`Your are <span> ${ageDifference} </span> Years, <span> ${monthDifference} Month </span> and <span> ${dayDifference} </span> Days old.`
 }
